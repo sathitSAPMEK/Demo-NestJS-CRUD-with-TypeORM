@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Nest With Type ORM",
+    "dateExported": "2023-02-18T09:02:20.743Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f3ab79de-46f9-4a95-b66e-7d5276a58bd7",
+            "colId": "5dce19ae-bad7-46e9-8d0c-b90bbc17e3c1",
+            "containerId": "",
+            "name": "get albums",
+            "url": "http://localhost:3000/albums",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-02-18T09:01:31.727Z",
+            "modified": "2023-02-18T09:01:31.727Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e690f073-82ad-4f2f-a9c2-2c935419bc08",
+            "colId": "5dce19ae-bad7-46e9-8d0c-b90bbc17e3c1",
+            "containerId": "",
+            "name": "get album by id",
+            "url": "http://localhost:3000/albums/3",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-02-18T09:01:40.658Z",
+            "modified": "2023-02-18T09:01:40.658Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "55cf3005-b466-4665-98c6-0efbc64887f7",
+            "colId": "5dce19ae-bad7-46e9-8d0c-b90bbc17e3c1",
+            "containerId": "",
+            "name": "delete album by id",
+            "url": "http://localhost:3000/albums/4",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-02-18T09:02:01.832Z",
+            "modified": "2023-02-18T09:02:01.832Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "072cd82e-0d4a-46c9-93a9-371861c4ac4a",
+            "colId": "5dce19ae-bad7-46e9-8d0c-b90bbc17e3c1",
+            "containerId": "",
+            "name": "create album",
+            "url": "http://localhost:3000/albums",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-02-18T09:02:08.693Z",
+            "modified": "2023-02-18T09:02:08.693Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"OO on the pool\",\n  \"remark\": \"test test\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "84c5ee2d-ea3b-4b25-8c6f-748fd87d4077",
+            "colId": "5dce19ae-bad7-46e9-8d0c-b90bbc17e3c1",
+            "containerId": "",
+            "name": "update album",
+            "url": "http://localhost:3000/albums/1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-02-18T09:02:14.529Z",
+            "modified": "2023-02-18T09:02:14.529Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Updat1e on the pool\",\n  \"remark\": \"test test\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
